@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Karla:wght@200&family=Merriweather&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    text-align: center;
+    font-family:'Karla', 'sans-serif'; 
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+   
+}
+li{
+    list-style-type: none;
+
+}
+p{ text-align: justify;
+    text-align: center;
+}
+
+
+/* *************NAVBAR************* */
+
+a { font-size: 25px;
+    font-family: 'Merriweather', 'sans-serif';
+    color: white;
+    
+}
+
+nav {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    opacity: 0,9;
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px 50px;
+}
+
+
+
+/* ***********INTRO*********** */
+#intro {
+    /* background: url(img/CL.png) fixed top/cover; */
+    
+    text-align: center;
+    margin: 0%;
+    padding: 5%;
+    color: white;
+}
+
+
+/* *********PRESENTATION********* */
+
+body{
+    /* text-align: center; */
+    /* background: url(img/CL.png) no-repeat fixed top/cover; */
+    background: url(img/pexels-pixabay-37859.jpg) no-repeat fixed top/cover ;
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    background: rgba(0, 0, 0, 0.500) ;
+    margin: 0% 9%;
+    width: 80%;
+       
+}
+
+
+#presentation {
+    /* background: rgba(0, 0, 0, 0.500); */
+    padding: 5%;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+h1 { font-family: 'Merriweather', 'sans-serif';
+    font-size: 50px;
+   
+}
+
+#trait1 {
+    height: 2px;
+    width: 60%;
+    margin: -3px auto;
+    background-color: white;
+
+    /* height: 3px;
+    width: 40%;
+    margin: -3px auto;
+    background-color: palevioletred;
+    box-shadow: 1px 3px 2px #F9CA24; */
+}
+
+
+/* **********PERSONNAGES************ */
+
+
+
+.flexbox ul {
+    /* display: flex; */
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  li a img  {
+    
+    height: 300px;
+    width: 300px;
+    padding: 0px;
+    margin: 10px;
+    /* *avoir des images de même taille* */
+    object-fit: cover; 
+    /* *avoir une ombre dans l'image si elle est en png* */
+    /* filter: drop-shadow(0 0 5px orange); */
+
+    box-shadow: 0 0 10px orange;
+    border: solid orange;
+    border-radius: 25%;
+    transition: 0.1s;
+   /* centrer verticalement */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  li a img:hover {
+      opacity: 0.90;
+      transform: scale(1.05);
+      transform: 0.10s ease-in-out;
+  }
+
+
+
+
+  .flexbox li a {
+      /* width: 400px;
+      height: 400px; */
+
+
+  }
+
+  h2 {
+    font-family: 'Merriweather', 'sans-serif';
+      color: white;
+    text-align: center;
+    font-size: 300%;
+    }
+
+
+
+/* 
+    ************MONDE*********** */
+
+    #trait2 {
+        height: 3px;
+        width: 60%;
+        margin: 60px auto;
+        background-color: white;
+    }
+
+h3{
+    font-family: 'Merriweather', 'sans-serif';
+    color: white;
+font-size: 300%;}
+
+#monde {
+    color: white;
+    padding: 5%;
+    margin: 0%;
+}
+
+.carte { padding: 10px;
+}
+
+#trait3 {
+    height: 3px;
+    width: 60%;
+    margin: 60px auto;
+    background-color: white;
+}
+
+
+
+
+
+/* **************character************* */
+
+.rp{
+    color: white;
+    text-align: left;
+    
+}
+
+.rp{
+    text-decoration: none;
+    background: url(img/2022-04-05_19-33-39-123_Neneko_Brave_Shine.png) no-repeat fixed top/cover;
+    color: white; 
+}
+
+li{list-style-type: none;
+    text-decoration: none;
+}
+
+#fond{
+    background: rgba(0, 0, 0, 0.500);
+    
+    width: 80%;
+}
